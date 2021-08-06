@@ -8,18 +8,42 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+.big{
+  color: #fff !important;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
 }
 
+.heading{
+  font-size: 1.40rem !important;
+  color: #fff !important;
+}    
+
+.heading:hover{
+  color: #fff !important;
+}
+
+.mb-0{
+  color: #ffbd39 !important;
+}
+
+.mr-2{
+  color: #ffbd39 !important;
+}
+
+
+
 a {
-  color: #149ddd;
+  color: #fff;
   text-decoration: none;
 }
 
 a:hover {
-  color: #37b3ed;
+  color: #ffbd39;
   text-decoration: none;
 }
 
@@ -1072,3 +1096,55 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+
+
+
+.ftco-section {
+  padding: 7em 0;
+  position: relative; 
+  background-color: #000 !important;
+}
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+
+
+      .block-20 {
+        overflow: hidden;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 350px; }
+
+.blogDesc{
+  color: #eff1c8;
+}
+
+
+
+
+.contact-section .box {
+  width: 100%;
+  display: block;
+  }
+  @media (max-width: 991.98px) {
+    .contact-section .box {
+      margin-bottom: 30px; } }
+  .contact-section .box .icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    }
+    
+  
+
+
+
+
+
+
