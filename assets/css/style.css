@@ -9,6 +9,13 @@
 # General
 --------------------------------------------------------------*/
 
+.portfolio-wrap img {
+    width: 100%;
+    height: 490px;
+    object-fit: cover;
+    object-position: top;
+}
+
 .big{
   color: #fff !important;
 }
